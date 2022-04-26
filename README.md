@@ -18,3 +18,14 @@ Specifically, this article explores the use of a SwiftUI View as the "Drawing Ca
 When developing a vector drawing app in the Apple ecosystem, things that come immediately onto the mind are Core Graphics or SwiftUI Canvas. Both are extremely fast, easy to use, and provide a canvas for us to draw on. Naturally, both are good choices as the canvas of a drawing app. However, when the drawing app requires WYSIWYG behavior, a Swift developer realizes that handling of object interactions such as drag, move, and resize, requires the use of Apple's Gestures and Events.
 
 This makes it hard for a Swift developer to ignore the use of a SwiftUI View as the "Drawing Canvas". This is because all Apple's Gestures and Events are directly supported by a SwiftUI View. If one is to take a step back and think about it, a SwiftUI View is designed by Apple for User Interface (UI) development, and such a View already naturally supports all the behavior required by a WYSIWYG app: rendering views and objects, and supporting gestures and events. The use of a SwiftUI View as the "Drawing Canvas" also does not prevent us from using Core Graphics, SwiftUI Canvas, or even Metal for rendering the underlying object that requires special treatment, as all three can be represented as a SwiftUI View easily.
+
+## Compiling the Source
+
+Prerequisites
+1. XCode 13
+2. iOS 15
+
+Build
+1. Download the Source
+2. Launch XCode and load BarcodeLabel.xcodeproj
+3. Build and run on iPhone Simulator or Device
