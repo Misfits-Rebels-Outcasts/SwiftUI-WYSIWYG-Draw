@@ -29,3 +29,9 @@ Build
 1. Download the Source
 2. Launch XCode and load BarcodeLabel.xcodeproj
 3. Build and run on iPhone Simulator or Device
+
+
+## Sister Project
+
+[Node based Image/Video Compositing on Mobile](https://github.com/Misfits-Rebels-Outcasts/Nodef)
+
