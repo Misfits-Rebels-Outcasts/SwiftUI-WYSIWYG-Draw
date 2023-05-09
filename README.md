@@ -22,12 +22,12 @@ This makes it hard for a Swift developer to ignore the use of a SwiftUI View as 
 ## Compiling the Source
 
 Prerequisites
-1. XCode 13
+1. Xcode 13
 2. iOS 15
 
 Build
 1. Download the Source
-2. Launch XCode and load BarcodeLabel.xcodeproj
+2. Launch Xcode and load BarcodeLabel.xcodeproj
 3. Build and run on iPhone Simulator or Device
 
 
